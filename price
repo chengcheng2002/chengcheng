@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prices</title>
+  <link rel="stylesheet" href="prices.css">
+  <link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+  <script src="js/prototype.js" type="text/javascript"></script>
+  <script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+  <script src="js/lightbox.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/java.js"></script>
+</head>
+
+<body>
+  <div class="banner">
+    <div class="slogan">
+      <div>
+        <h2>No matter how much one has experienced,<br> he can’t enrich his knowledge<br> without reading books.</h2>
+      </div>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-list">
+      <ul>
+        <li><a href="home.html">home</a></li>
+        <li><a href="about us.html">about us</a></li>
+        <li><a href="books.html">books</a></li>
+        <li><a href="special books.html">special books</a></li>
+        <li><a href="my accout.html">my accout</a></li>
+        <li><a href="register.html">register</a></li>
+        <li><a href="prices.html" style="color:yellowgreen">prices</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="center_content">
+    <div class="left_content">
+      <div class="crumb_nav"> <a href="index.htm">home</a> &gt;&gt; product name </div>
+      <div class="title"><span class="title_icon"><img src="images/bullet1.gif" alt="" title="" /></span>Product name
+      </div>
+      <div class="feat_prod_box_details">
+        <div class="prod_img"><a href="details.htm"><img src="images/prod1.gif" alt="" title="" border="0" /></a>
+          <br />
+          <br />
+          <a href="images/big_pic.jpg" rel="lightbox"><img src="images/zoom.gif" alt="" title="" border="0" /></a>
+        </div>
+        <div class="prod_det_box">
+          <div class="box_top"></div>
+          <div class="box_center">
+            <div class="prod_title">Details</div>
+            <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.<br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+            <div class="price"><strong>PRICE:</strong> <span class="red">100 $</span></div>
+            <div class="price"><strong>COLORS:</strong> <span class="colors"><img src="images/color1.gif" alt=""
+                  title="" border="0" /></span> <span class="colors"><img src="images/color2.gif" alt="" title=""
+                  border="0" /></span> <span class="colors"><img src="images/color3.gif" alt="" title=""
+                  border="0" /></span> </div>
+            <a href="details.htm" class="more"><img src="images/order_now.gif" alt="" title="" border="0" /></a>
+            <div class="clear"></div>
+          </div>
+          <div class="box_bottom"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div id="demo" class="demolayout">
+        <ul id="demo-nav" class="demolayout">
+          <li><a class="active" href="http://www.865171.cntab1">More details</a></li>
+          <li><a class="" href="http://www.865171.cntab2">Related books</a></li>
+        </ul>
+        <div class="tabs-container">
+          <div style="display: block;" class="tab" id="tab1">
+            <p class="more_details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+            <ul class="list">
+              <li><a href="http://www.865171.cn">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+              <li><a href="http://www.865171.cn">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+              <li><a href="http://www.865171.cn">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+              <li><a href="http://www.865171.cn">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+            </ul>
+            <p class="more_details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+          </div>
+          <div style="display: none;" class="tab" id="tab2">
+            <div class="new_prod_box"> <a href="details.htm">product name</a>
+              <div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb1.gif" alt="" title="" class="thumb"
+                    border="0" /></a> </div>
+            </div>
+            <div class="new_prod_box"> <a href="details.htm">product name</a>
+              <div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb2.gif" alt="" title="" class="thumb"
+                    border="0" /></a> </div>
+            </div>
+            <div class="new_prod_box"> <a href="details.htm">product name</a>
+              <div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb3.gif" alt="" title="" class="thumb"
+                    border="0" /></a> </div>
+            </div>
+            <div class="new_prod_box"> <a href="details.htm">product name</a>
+              <div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb1.gif" alt="" title="" class="thumb"
+                    border="0" /></a> </div>
+            </div>
+            <div class="new_prod_box"> <a href="details.htm">product name</a>
+              <div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb2.gif" alt="" title="" class="thumb"
+                    border="0" /></a> </div>
+            </div>
+            <div class="new_prod_box"> <a href="details.htm">product name</a>
+              <div class="new_prod_bg"> <a href="details.htm"><img src="images/thumb3.gif" alt="" title="" class="thumb"
+                    border="0" /></a> </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!--end of left content-->
+    <div class="right_content">
+
+
+    </div>
+    <!--end of right content-->
+    <div class="clear"></div>
+  </div>
+
+  <hr>
+  <div class="footer">
+    <img src="logo.jpg" style="height: 40px;width: 80px;">
+    <div class="footer-list">
+      <ul>
+        <li><a href="#">contact us</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">privacy policy</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">home</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
+* {
+  margin: 0 auto;
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+}
+body {
+  background-color: rgba(155, 109, 10, 0.589);
+  padding: 0;
+  margin: 0px auto auto auto;
+  color: #000000;
+}
+a {
+  color: #fff;
+}
+.clear {
+  clear: both;
+}
+.new_prod_box {
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+.banner {
+  width: 100%;
+  height: 120vh;
+  background: url("header-bg.jpg");
+  background-size: cover;
+}
+.feat_prod_box {
+  padding: 10px 0 10px 10px;
+  margin: 0 20px 20px 0;
+  border-bottom: 1px #b2b2b2 dashed;
+  clear: both;
+}
+.slogan {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.slogan h2 {
+  font-size: 60px;
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+}
+.menu {
+  width: 60%;
+  height: 80px;
+  background-color: rgba(184, 134, 11, 0.5);
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline-block;
+  padding-left: 40px;
+  font-size: 16px;
+}
+.menu ul li a {
+  text-decoration: none;
+}
+.menu ul li a:hover,
+.menu ul li a:active {
+  font-size: 18px;
+  color: yellowgreen;
+}
+.content {
+  width: 80%;
+  height: 200vh;
+  margin: auto;
+  display: flex;
+}
+
+.left-content {
+  width: 60%;
+  height: 200vh;
+  background-color: antiquewhite;
+}
+.right-content {
+  background-color: white;
+  width: 40%;
+  height: 200vh;
+}
+.footer {
+  width: 100%;
+  height: 20vh;
+  padding: 40px;
+}
+.footer-list ul {
+  list-style-type: none;
+}
+.footer-list ul li {
+  display: inline-block;
+  float: right; /*w3上写的是这个，vscode报了警告 */
+  padding-right: 40px;
+}
+.footer-list ul li a {
+  text-decoration-line: none;
+}
+.clear {
+  clear: both;
+}
+p {
+  padding: 5px 0 5px 0;
+  margin: 0px;
+  text-align: justify;
+  line-height: 19px;
+}
+p.details {
+  padding: 5px 15px 5px 15px;
+  font-size: 11px;
+}
+p.details_cart {
+  clear: both;
+  padding: 25px 30px 5px 0px;
+  font-size: 11px;
+  font-style: italic;
+}
+p.more_details {
+  padding: 25px 20px 0px 20px;
+  font-size: 11px;
+}
+#wrap {
+  width: 900px;
+  height: auto;
+  margin: auto;
+  background-color: #ffffff;
+}
+.header {
+  width: 900px;
+  height: 181px;
+  background: url(images/header.jpg) no-repeat center;
+}
+.logo {
+  padding: 50px 0 0 130px;
+}
+/*-----------------------------menu-------------------*/
+#menu {
+  width: 628px;
+  height: 30px;
+  padding: 55px 0 0 10px;
+}
+#menu ul {
+  display: block;
+  list-style: none;
+  padding: 9px 0 0 10px;
+  margin: 0px;
+}
+#menu ul li {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+}
+#menu ul li a {
+  height: 27px;
+  display: block;
+  padding: 0px 10px 0 10px;
+  margin: 0 4px 0 4px;
+  _margin: 0 2px 0 2px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  line-height: 25px;
+}
+#menu ul li.selected a {
+  height: 27px;
+  display: block;
+  padding: 0px 10px 0 10px;
+  margin: 0 5px 0 5px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  color: #f7a849;
+  font-size: 13px;
+  line-height: 25px;
+}
+#menu ul li a:hover {
+  color: #f7a849;
+}
+/*----------------crumb_nav------------------*/
+.crumb_nav {
+  padding: 5px 0 10px 0px;
+}
+.crumb_nav a {
+  color: #990000;
+}
+span.red {
+  color: #990000;
+}
+.price {
+  font-size: 14px;
+  padding: 0 0 0 15px;
+  margin: 2px 0 5px 0;
+}
+span.colors {
+  padding: 2px 2px 0 2px;
+}
+
+/*------------------------------------center content--------------------*/
+.center_content {
+  width: 900px;
+  padding: 0px 0 0 0;
+  background: url(images/center_bg.gif) repeat-y center;
+}
+.left_content {
+  width: 490px;
+  float: left;
+  padding: 20px 0 20px 20px;
+  color: #000;
+  background-color: antiquewhite;
+}
+.right_content {
+  width: 370px;
+  float: left;
+  padding: 20px 0 20px 20px;
+  background-color: #fff;
+}
+.title {
+  color: #734633;
+  padding: 0px;
+  float: left;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+span.title_icon {
+  float: left;
+  padding: 0 5px 0 0;
+}
+.prod_title {
+  color: #f8981d;
+  padding: 5px 0 0 15px;
+  font-size: 13px;
+}
+a.more {
+  font-style: italic;
+  color: #f8981d;
+  float: right;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 0px 15px 0 0;
+}
+
+img.right {
+  float: right;
+  padding: 0 0 0 10px;
+}
+.right_box {
+  width: 170px;
+  float: left;
+  padding: 10px 0 0 0;
+}
+
+/*--------feat_prod_box-----------*/
+.feat_prod_box {
+  padding: 10px 0 10px 10px;
+  margin: 0 20px 20px 0;
+  border-bottom: 1px #b2b2b2 dashed;
+  clear: both;
+}
+.feat_prod_box_details {
+  padding: 10px 0 10px 0;
+  margin: 0 20px 10px 0;
+  clear: both;
+}
+.prod_img {
+  float: left;
+  padding: 0 5px 0 0;
+  text-align: center;
+}
+.prod_det_box {
+  width: 295px;
+  float: left;
+  padding: 0 0 0 25px;
+  position: relative;
+}
+.box_top {
+  width: 295px;
+  height: 9px;
+  background: url(images/box_top.gif) no-repeat center bottom;
+}
+.box_center {
+  width: 295px;
+  height: auto;
+  background: url(images/box_center.gif) repeat-y center;
+}
+.box_bottom {
+  width: 295px;
+  height: 9px;
+  background: url(images/box_bottom.gif) no-repeat center top;
+}
+
+.new_prod_box {
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+.new_prod_box a {
+  padding: 5px 0 5px 0;
+  color: #b5b5b6;
+  text-decoration: none;
+  display: block;
+}
+.new_prod_bg {
+  width: 132px;
+  height: 119px;
+  text-align: center;
+  background: url(images/new_prod_box.gif) no-repeat center;
+  position: relative;
+}
+
+img.thumb {
+  padding: 10px 0 0 0;
+}
+.new_products {
+  clear: both;
+  padding: 0px;
+}
+
+ul.list {
+  clear: both;
+  padding: 10px 0 0 20px;
+  margin: 0px;
+}
+ul.list li {
+  list-style: none;
+  padding: 2px 0 2px 0;
+}
+ul.list li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+  background: url(images/left_menu_bullet.gif) no-repeat left;
+  padding: 0 0 0 17px;
+}
+ul.list li a:hover {
+  text-decoration: underline;
+}
+
+/* demo */
+
+div.demolayout {
+  width: 460px;
+  margin: 0 0 20px 0;
+}
+
+ul.demolayout {
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.demolayout li {
+  margin: 0 10px 0 0;
+  float: left;
+}
+.tab {
+  border: 1px #dfdfdf solid;
+  padding: 0 0 25px 0;
+}
+ul.demolayout a {
+  float: left;
+  display: block;
+  padding: 5px 25px;
+  border: 1px solid #dfdfdf;
+  border-bottom: 0;
+  color: #666;
+  background: #eee;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul.demolayout a:hover {
+  background: #fff;
+}
+
+ul.demolayout a.active {
+  background: #fff;
+  padding-bottom: 5px;
+  cursor: default;
+  color: #795636;
+}
+
+.tabs-container {
+  clear: left;
+  padding: 0px;
+}
+/*--------------*/
+div.pagination {
+  width: 420px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  float: left;
+  clear: both;
+  font-size: 10px;
+}
+
+div.pagination a {
+  padding: 2px 5px 2px 5px;
+  margin-right: 2px;
+  border: 1px solid #795636;
+  text-decoration: none;
+  color: #795636;
+}
+div.pagination a:hover,
+div.pagination a:active {
+  border: 1px solid #795636;
+  color: #fff;
+  background-color: #795636;
+}
+div.pagination span.current {
+  padding: 2px 5px 2px 5px;
+  margin-right: 2px;
+  border: 1px solid #795636;
+  font-weight: bold;
+  background-color: #795636;
+  color: #fff;
+}
+div.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin-right: 2px;
+  border: 1px solid #f3f3f3;
+  color: #ccc;
+}
